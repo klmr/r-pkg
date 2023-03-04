@@ -15,7 +15,7 @@ Description: A package to develop the GitLab Actions workflow for ‘box’ with
 Depends:
     R (>= 3.5.0)
 Imports:
-    tools
+    utils
 License: MIT + file LICENSE
 Encoding: UTF-8
 Suggests:

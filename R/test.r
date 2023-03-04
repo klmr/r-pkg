@@ -3,7 +3,11 @@
 #' @keywords internal
 '_PACKAGE'
 
+#' Test function
+#'
+#' @param x a vector
+#' @return \code{x}
 #' @export
 test = function (x) {
-    .Call(c_test, x)
+    utils::head(.Call(c_test, x))
 }
